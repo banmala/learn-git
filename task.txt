@@ -1,3 +1,6 @@
+2. Create a calculator function that takes two numbers and an operator (+, -, *, /) as argument of the function and returns the result. Hint: switch()
+
+
 function calculator (x, y, operator){
     switch(operator){
         case "+":

@@ -166,6 +166,3 @@ const temp = [1,2,3,4]
 for(let x in temp){
     console.log("x: ", x)
 }
-for(x of temp){
-    console.log("x: ", x)
-}

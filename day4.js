@@ -117,5 +117,6 @@ const data = func1().then((result)=>{
     console.log("Result2: ", result)
     return func3()
 }).then((result)=>{
-    console.log("Result3: ", result)
 })
+
+// git clone https://github.com/banmala/learn-git

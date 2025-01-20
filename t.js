@@ -24,4 +24,4 @@ let numbers = [1,2,3,4,5,6,7,8,9,10]
 let squares = numbers.filter((x)=>{
     return x%3===0
 })
-console.log("squares: ",squares)
+console.log("squares: ",squares)qwejrhqlwierS

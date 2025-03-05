@@ -50,22 +50,22 @@
 //     console.log("The sum of the numbers is: ", s)
 // });
 
-// const fetchData = (callback) => {
-//     let data = "Data from the server"
+const fetchData = (callback) => {
+    let data = "Data from the server"
 
-//     if(false){
-//         callback(null, data)
-//     }else{
-//         callback("No data found", null)
-//     }
-// }
-// fetchData((error, result)=>{
-//     if(error){
-//         console.log("Error: ", error)
-//     }else{
-//         console.log("Result: ", result)
-//     }
-// });
+    if(false){
+        callback(null, data)
+    }else{
+        callback("No data found", null)
+    }
+}
+fetchData((error, result)=>{
+    if(error){
+        console.log("Error: ", error)
+    }else{
+        console.log("Result: ", result)
+    }
+});
 
 // Promise
 //pending, resolved, rejected
